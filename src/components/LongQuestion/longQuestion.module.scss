@@ -1,0 +1,32 @@
+.longQuestion {
+    background-color: #ffffff;
+    padding: 5%;
+    height: 55vh;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+        padding-bottom: 1rem;
+        color: #474747;
+    }
+    .answerContainer {
+        width: 100%;
+        .longText {
+            width: 100%;
+            padding: 0.5rem;
+            font-size: 22px;
+            border: none;
+            resize: none;
+            height: 60px;
+            color: rgb(0, 117, 117);
+            &::placeholder {
+                color: rgba(0, 117, 117, 0.432);
+            }
+            &:focus {
+                border-bottom: solid 1px rgb(0, 117, 117);
+            }
+        }
+    }
+}

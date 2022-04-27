@@ -1,0 +1,68 @@
+.multipleChoice {
+    background-color: #ffffff;
+    padding: 5%;
+    color: rgb(0, 117, 117);
+    height: 55vh;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+        padding-bottom: 1rem;
+        color: #474747;
+    }
+    .answerContainer {
+        display: flex;
+        flex-direction: column;
+        .select {
+            min-height: 200px;
+            border: transparent;
+            background-color: transparent;
+            overflow-y: auto;
+            width: 400px;
+            &:focus {
+                border: transparent;
+                outline: transparent;
+            }
+            .option {
+                background-color: #e0e0e075;
+                margin: 0.5rem;
+                display: flex;
+                padding: 0.7rem 0.5rem;
+                font-size: 22px;
+                font-weight: 500;
+                color: rgb(102, 102, 102);
+                border-radius: 5px;
+                cursor: pointer;
+                align-items: center;
+                border: solid 2px rgba(102, 102, 102, 0.712);
+                span {
+                    background-color: #ffffff;
+                    margin-right: 10px;
+                    padding: 0.2rem 0.5rem;
+                    font-size: 18px;
+                    border: solid 2px rgba(102, 102, 102, 0.712);
+                }
+            }
+            &:hover {
+                font-size: 24px;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.select {
+    min-height: 200px;
+    border: transparent;
+    background-color: transparent;
+    overflow-y: auto;
+    width: 400px;
+}
+
+.select .select option {
+    padding: 5px 10px;
+    /* background-color: tomato; */
+    background-color: white;
+}

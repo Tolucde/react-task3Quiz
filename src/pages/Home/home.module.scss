@@ -1,0 +1,35 @@
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .controls {
+        width: 100%;
+        display: flex;
+        padding: 2rem;
+        justify-content: space-around;
+        .submit,
+        .next,
+        .prev {
+            padding: 0.5rem;
+            background-color: rgb(42, 245, 42);
+            border-radius: 5px;
+            font-size: 20px;
+            width: 100px;
+            color: rgb(61, 61, 61);
+            border: none;
+            outline: none;
+            box-shadow: 0 2px 3px rgba(54, 54, 54, 0.747);
+        }
+        .next {
+            background-color: rgb(38, 38, 221);
+            color: #ffffff;
+        }
+        .prev {
+            background-color: rgba(253, 25, 25, 0.911);
+            color: #ffffff;
+        }
+    }
+}

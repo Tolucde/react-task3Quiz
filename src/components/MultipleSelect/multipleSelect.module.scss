@@ -1,0 +1,23 @@
+.multipleSelect {
+    background-color: #ffffff;
+    padding: 5%;
+    color: rgb(0, 117, 117);
+    height: 55vh;
+    width: 60vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    h2 {
+        padding-bottom: 1rem;
+        color: #474747;
+    }
+    .answerContainer {
+        display: flex;
+    }
+}
+
+.k {
+    width: 200px;
+    height: 30px;
+}
